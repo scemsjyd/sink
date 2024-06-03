@@ -19,12 +19,12 @@ onMounted(() => {
         href="https://html.zone"
         target="_blank"
       >
-        &copy; {{ new Date().getFullYear() }} Products of HTML.ZONE
+        &copy; {{ new Date().getFullYear() }}
       </a>
-      <!-- <span
+      <span
         class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
       >
-        <a
+        <!-- <a
           ref="email"
           href="mailto:sink.cool$miantiao.me"
           title="Email"
@@ -80,10 +80,10 @@ onMounted(() => {
           <MastodonIcon
             class="w-6 h-6"
           />
-        </a>
+        </a> -->
 
         <a
-          href="https://github.com/ccbikai"
+          href="https://github.com/ccbikai/Sink"
           target="_blank"
           title="GitHub"
           class="text-gray-400 hover:text-gray-500"
@@ -93,7 +93,7 @@ onMounted(() => {
             class="w-6 h-6"
           />
         </a>
-      </span> -->
+      </span>
     </div>
   </section>
 </template>
