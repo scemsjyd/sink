@@ -1,6 +1,6 @@
 <script setup>
 import { AreaChart } from 'lucide-vue-next'
-import { GitHubIcon } from 'vue3-simple-icons'
+// import { GitHubIcon } from 'vue3-simple-icons'
 import heroImg from '@/assets/images/hero.svg?raw'
 
 const { title, description } = useAppConfig()
@@ -37,7 +37,7 @@ const { title, description } = useAppConfig()
           />
           Dashboard
         </HomeLink>
-        <HomeLink
+        <!-- <HomeLink
           size="lg"
           type="outline"
           rel="noopener"
@@ -49,7 +49,7 @@ const { title, description } = useAppConfig()
             class="w-5 h-5"
           />
           GitHub Repo
-        </HomeLink>
+        </HomeLink> -->
       </div>
     </div>
   </main>
